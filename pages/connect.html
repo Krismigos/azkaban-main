@@ -1,0 +1,72 @@
+
+<!DOCTYPE html>
+
+<html lang="uk">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Як підключитись | Azkaban</title>
+<link href="styles/connect.css" rel="stylesheet"/>
+<link href="../css/style.css" rel="stylesheet"/>
+</head>
+<body>
+<header class="main-header">
+<div class="header-wrapper">
+<div class="left">
+<div class="logo">AZKABAN</div>
+<div class="online">Онлайн: <span id="server-online">0</span> гравців</div>
+</div>
+<nav class="nav-center">
+<a href="../index.html">Головна</a>
+<a href="shop.html">Магазин</a>
+<a href="news.html">Новини</a>
+<a href="rules.html">Правила</a>
+<a href="connect.html">Як підключитись</a>
+</nav>
+<div class="right">
+<button class="steam-btn">Авторизуватися через Steam</button>
+</div>
+</div>
+</header>
+<div class="rules-section">
+<h1>🌐 Як підключитись до Azkaban DayZ</h1>
+<h2>💻 Варіант 1: Через лаунчер DZSA</h2>
+<ul>
+<li>Скачайте лаунчер з сайту <a href="https://dzsa.gg" target="_blank">dzsa.gg</a>.</li>
+<li>Встановіть лаунчер та відкрийте його.</li>
+<li>У пошуку знайдіть сервер "AZKABAN" або введіть IP вручну.</li>
+<li>Натисніть "Join" та насолоджуйтесь грою!</li>
+</ul>
+<h2>🎮 Варіант 2: Через Steam</h2>
+<ul>
+<li>Відкрийте Steam та перейдіть у "Перегляд" → "Сервери".</li>
+<li>У вкладці "Фаворити" натисніть "Додати сервер".</li>
+<li>Введіть IP сервера: <strong>123.456.789:2302</strong></li>
+<li>Після додавання натисніть "Підключитись".</li>
+</ul>
+<h2>❗ Важливо</h2>
+<ul>
+<li>Перевірте, що у вас встановлені всі потрібні моди.</li>
+<li>Рекомендується запуск через DZSA для автоматичного підключення.</li>
+</ul>
+</div>
+<div class="rules-section">
+<h2>📡 IP сервера</h2>
+<div class="ip-block">
+<span id="server-ip">193.25.252.21:2302</span>
+<button class="copy-btn" onclick="copyIP()">📋 Скопіювати IP</button>
+</div>
+<h2>💬 Наш Discord</h2>
+<a class="discord-btn" href="https://discord.gg/j8QcxDUh8D" target="_blank">🔗 Приєднатись до Discord</a>
+</div>
+<script>
+function copyIP() {
+  const ip = document.getElementById("server-ip").textContent;
+  navigator.clipboard.writeText(ip).then(() => {
+    alert("IP скопійовано: " + ip);
+  });
+}
+</script>
+<script src="../js/monitor.js"></script>
+</body>
+</html>

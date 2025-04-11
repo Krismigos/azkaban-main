@@ -1,0 +1,75 @@
+
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body {
+      font-family: 'Montserrat', sans-serif;
+      background: #0b0f1a;
+      color: #ffffff;
+    }
+    a { text-decoration: none; color: #fff; }
+
+    .main-header {
+      background: #111;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.6);
+      padding: 1rem;
+    }
+    .header-wrapper {
+      max-width: 1400px;
+      margin: 0 auto;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      flex-wrap: wrap;
+    }
+    .logo {
+      font-size: 2rem;
+      font-weight: 900;
+      color: #c70000;
+    }
+    .online {
+      font-size: 0.9rem;
+      color: #ccc;
+      margin-left: 1rem;
+    }
+    .left {
+      display: flex;
+      align-items: center;
+      gap: 1rem;
+    }
+    .nav-center {
+      display: flex;
+      gap: 2rem;
+      justify-content: center;
+    }
+    .nav-center a {
+      font-weight: 500;
+    }
+    .right {
+      display: flex;
+      justify-content: flex-end;
+    }
+    .steam-btn {
+      background-color: #1b2838;
+      color: #c7d5e0;
+      padding: 0.5rem 1rem;
+      border: none;
+      border-radius: 4px;
+      font-weight: 600;
+      cursor: pointer;
+    }
+    .steam-btn:hover {
+      background-color: #2a475e;
+    }
+    .online-banner {
+      background: linear-gradient(to right, #0048bd, #00c6ff);
+      padding: 2rem;
+      text-align: center;
+    }
+    .online-banner h2 {
+      font-size: 2rem;
+      font-weight: bold;
+    }
+    .online-banner p {
+      font-size: 1.2rem;
+      margin-top: 0.5rem;
+    }
+  

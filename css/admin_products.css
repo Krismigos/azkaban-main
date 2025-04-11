@@ -1,0 +1,10 @@
+
+    body { font-family: sans-serif; padding: 20px; background: #f9f9f9; }
+    h1 { color: #333; }
+    form, table { margin-top: 20px; width: 100%; max-width: 600px; }
+    input, button { padding: 10px; margin: 5px 0; width: 100%; }
+    table { border-collapse: collapse; margin-top: 30px; }
+    th, td { padding: 10px; border: 1px solid #ccc; text-align: left; }
+    th { background: #222; color: #fff; }
+    tr:nth-child(even) { background-color: #eee; }
+  

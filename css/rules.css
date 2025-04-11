@@ -1,0 +1,24 @@
+
+body {
+  background: #0b0e17;
+  font-family: 'Segoe UI', sans-serif;
+  color: #f0f0f0;
+  margin: 0;
+  padding: 0;
+}
+.wrapper {
+  max-width: 800px;
+  margin: 40px auto;
+  padding: 20px;
+}
+h1, h2 {
+  color: #00f3ff;
+}
+.highlight {
+  background: #111;
+  color: #00f3ff;
+  padding: 10px;
+  border-radius: 8px;
+  margin: 10px 0;
+  font-weight: bold;
+}

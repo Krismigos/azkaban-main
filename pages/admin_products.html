@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+
+<html lang="uk">
+<head>
+<meta charset="utf-8"/>
+<title>Редагування товарів</title>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+
+<link href="css/admin_products.css" rel="stylesheet"/><link href="../css/style.css" rel="stylesheet"/>
+</head>
+<body>
+
+<header class="main-header">
+  <div class="header-wrapper">
+    <div class="left">
+      <div class="logo">AZKABAN</div>
+      <div class="online">Онлайн: <span id="server-online">0</span> гравців</div>
+    </div>
+    <nav class="nav-center">
+      <a href="../index.html">Головна</a>
+      <a href="shop.html">Магазин</a>
+      <a href="news.html">Новини</a>
+      <a href="rules.html">Правила</a>
+      <a href="connect.html">Як підключитись</a>
+    </nav>
+    <div class="right">
+      <button class="steam-btn">Авторизуватися через Steam</button>
+    </div>
+  </div>
+</header>
+
+
+
+
+<h1>Редагування товарів магазину</h1>
+<form id="add-form">
+<input id="product-name" placeholder="Назва товару" required="" type="text"/>
+<input id="product-price" placeholder="Ціна" required="" type="number"/>
+<button type="submit">Додати товар</button>
+</form>
+<h2>Список товарів</h2>
+<table id="product-table">
+<thead>
+<tr>
+<th>Назва</th>
+<th>Ціна</th>
+<th>Дія</th>
+</tr>
+</thead>
+<tbody></tbody>
+</table>
+
+<script src="../js/js/shop.js"></script>
+<script src="../js/monitor.js"></script>
+</body>
+</html>

@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+
+<html lang="uk">
+<head>
+<meta charset="utf-8"/>
+<title>AZKABAN - Головна</title>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&amp;display=swap" rel="stylesheet"/>
+<link href="css/index.css" rel="stylesheet"/>
+<link href="css/style.css" rel="stylesheet"/>
+</head>
+<body class="index-page">
+<header class="main-header">
+<div class="header-wrapper">
+<div class="left">
+<div class="logo">AZKABAN</div>
+<div class="online">Онлайн: <span id="server-online">0</span> гравців</div>
+</div>
+<nav class="nav-center">
+<a href="index.html">Головна</a>
+<a href="pages/shop.html">Магазин</a>
+<a href="pages/news.html">Новини</a>
+<a href="pages/rules.html">Правила</a>
+<a href="pages/connect.html">Як підключитись</a>
+</nav>
+<div class="right">
+<button class="steam-btn">Авторизуватися через Steam</button>
+</div>
+</div>
+</header>
+<main style="text-align: center;">
+<!-- <img alt="AZKABAN" src="img/LOGO.png" style="max-width: 350px" /> -->
+<!-- <h1 style="margin-top: 2rem;">AZKABAN</h1> -->
+<div class="hero-text">
+<h1>Ласкаво просимо до Azkaban DayZ</h1><img alt="AZKABAN Logo" src="img/LOGO.png" style="display: block; margin: 2rem auto; max-width: 300px;"/>
+<p>Тут виживають найсильніші.</p>
+<p>Поринь у світ PvP, рейдів, баз та справжнього виживання.</p>
+<div class="inline-timer">
+<span>🕒 До наступного вайпу:</span><br/>
+<div id="countdown-inline">
+<span id="days">0</span> дн
+      <span id="hours">0</span> год
+      <span id="minutes">0</span> хв
+      <span id="seconds">0</span> сек
+    </div>
+</div>
+</div>
+<script>
+  const targetDate = new Date("2025-05-10T10:42:42").getTime();
+  function updateCountdown() {
+    const now = new Date().getTime();
+    const diff = targetDate - now;
+
+    if (diff <= 0) {
+      document.getElementById("countdown-inline").innerHTML = "Вайп вже відбувся!";
+      return;
+    }
+
+    const days = Math.floor(diff / (1000 * 60 * 60 * 24));
+    const hours = Math.floor((diff % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+    const minutes = Math.floor((diff % (1000 * 60 * 60)) / (1000 * 60));
+    const seconds = Math.floor((diff % (1000 * 60)) / 1000);
+
+    document.getElementById("days").textContent = days;
+    document.getElementById("hours").textContent = hours;
+    document.getElementById("minutes").textContent = minutes;
+    document.getElementById("seconds").textContent = seconds;
+  }
+
+  setInterval(updateCountdown, 1000);
+  updateCountdown();
+</script>
+</main>
+<script src="js/monitor.js"></script>
+<script src="js/shop.js"></script>
+<script src="js/monitor.js"></script>
+</body>
+</html>

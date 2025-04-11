@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+
+<html lang="uk">
+
+<head>
+  <meta charset="utf-8" />
+  <title>AZKABAN - Магазин</title>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&amp;display=swap" rel="stylesheet" />
+  <link href="../css/style.css" rel="stylesheet" />
+</head>
+
+<body>
+  <header class="main-header">
+    <div class="header-wrapper">
+      <div class="left">
+        <div class="logo">AZKABAN</div>
+        <div class="online">Онлайн: <span id="server-online">0</span> гравців</div>
+      </div>
+      <nav class="nav-center">
+        <a href="../index.html">Головна</a>
+        <a href="shop.html">Магазин</a>
+        <a href="news.html">Новини</a>
+        <a href="rules.html">Правила</a>
+        <a href="connect.html">Як підключитись</a>
+      </nav>
+      <div class="right">
+        <button class="steam-btn">Авторизуватися через Steam</button>
+      </div>
+    </div>
+  </header>
+  <div class="shop-wrapper">
+    <aside class="category-filter">
+      <ul>
+        <li class="active" data-filter="all">Усі</li>
+        <li data-filter="автомобілі">Автомобілі</li>
+        <li data-filter="фурнітура">Фурнітура</li>
+        <li data-filter="будівництво">Будівництво</li>
+      </ul>
+    </aside>
+    <div class="product-grid" id="products">
+      <!-- Динамические товары из shop.js -->
+    </div>
+  </div>
+  <script src="js/monitor.js"></script>
+  <!-- Корзина -->
+  <!-- 🛒 Cart Icon and Container -->
+  <div id="cart-icon">🛒</div>
+  <div id="cart-container">
+    <div class="cart-title">Кошик товарів</div>
+    <ul id="cart-items" style="list-style:none;padding:0;"></ul>
+    <div class="cart-bottom-fixed">
+      <div class="summary"><span>Загалом:</span><span id="cart-total" style="color: #111;">0 UAH</span></div>
+      <button class="pay-btn" onclick="proceedToPayment()">Придбати</button>
+    </div>
+  </div>
+
+  <script src="../js/monitor.js"></script>
+  <script>
+    document.addEventListener("DOMContentLoaded", () => {
+      const cards = document.querySelectorAll(".product-card");
+      cards.forEach((card, index) => {
+        setTimeout(() => {
+          card.classList.add("visible");
+        }, index * 100);
+      });
+    });
+
+  </script>
+<script src="../js/shop_patched.js"></script>
+</body>
+
+</html>
