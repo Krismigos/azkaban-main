@@ -1,11 +1,25 @@
 
 const products = [
-  { name: "BMW", price: 265, category: "автомобілі", image: "../img/img-auto/bmw.png" },
-  { name: "Chevrolet", price: 350, category: "автомобілі", image: "../img/img-auto/chevrole.png" },
+  /* Auto */
+  { name: "BMW", price: 265, category: "автомобілі", image: "..//img/img-auto/auto/bmw.png" },
+  { name: "Sarka", price: 350, category: "автомобілі", image: "..//img/img-auto/auto/sarka.png" },
+  { name: "Zil", price: 265, category: "автомобілі", image: "..//img/img-auto/auto/zil.png" },
+  { name: "Gunter", price: 350, category: "автомобілі", image: "..//img/img-auto/auto/gunter.png" },
+  { name: "Dingo", price: 1300, category: "автомобілі", image: "..//img/img-auto/auto/dingo.png" },
+  { name: "Hammer", price: 1300, category: "автомобілі", image: "..//img/img-auto/auto/hammer.png" },
+  { name: "Dingo", price: 1300, category: "автомобілі", image: "..//img/img-auto/auto/dingo.png" },
+  { name: "Dingo", price: 1300, category: "автомобілі", image: "..//img/img-auto/auto/dingo.png" },
+  { name: "Dingo", price: 1300, category: "автомобілі", image: "..//img/img-auto/auto/dingo.png" },
+  { name: "Dingo", price: 1300, category: "автомобілі", image: "..//img/img-auto/auto/dingo.png" },
+
+
+  /* Furnitura */
+
   { name: "Dingo", price: 1300, category: "фурнітура", image: "../img/img-auto/dingo.png" },
-  { name: "Hammer", price: 1760, category: "фурнітура", image: "../img/img-auto/hammer.png" },
-  { name: "Shovel", price: 50, category: "будівництво" },
-  { name: "Board", price: 40, category: "будівництво" }
+  /* Стройка */
+  { name: "Shovel", price: 50, category: "будівництво", image: "..//img/img-auto/furnitura/zil.png" },
+  { name: "Board", price: 40, category: "будівництво" },
+  /* Сети одягу */
 ];
 
 let cart = JSON.parse(localStorage.getItem('cart')) || [];

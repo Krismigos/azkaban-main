@@ -11,6 +11,7 @@ async function updateServerPlayers() {
     const chernoElement = document.getElementById('server-online');
     if (chernoElement) {
       chernoElement.textContent = players;
+      console.log(url)
     }
   } catch (e) {
     console.error('Помилка отримання даних з BattleMetrics:', e);
