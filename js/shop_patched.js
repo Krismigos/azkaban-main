@@ -14,26 +14,24 @@ const products = [
 
 
   /* Furnitura */
-  { name: "Shovel", price: 50, category: "фурнітура", image: "..//img/img-auto/furnitura/1.png" },
-  { name: "Shovel", price: 50, category: "фурнітура", image: "..//img/img-auto/furnitura/2.png" },
-  { name: "Shovel", price: 50, category: "фурнітура", image: "..//img/img-auto/furnitura/3.png" },
-  { name: "Shovel", price: 50, category: "фурнітура", image: "..//img/img-auto/furnitura/4.png" },
-  { name: "Shovel", price: 50, category: "фурнітура", image: "..//img/img-auto/furnitura/5.png" },
-  { name: "Shovel", price: 50, category: "фурнітура", image: "..//img/img-auto/furnitura/6.png" },
-  { name: "Shovel", price: 50, category: "фурнітура", image: "..//img/img-auto/furnitura/7.png" },
-  { name: "Shovel", price: 50, category: "фурнітура", image: "..//img/img-auto/furnitura/8.png" },
-  { name: "Shovel", price: 50, category: "фурнітура", image: "..//img/img-auto/furnitura/9.png" },
+  { name: "Шкаф Великий", price: 50, category: "фурнітура", image: "..//img/img-auto/furnitura/1.png" },
+  { name: "Шкафа для Зброї", price: 50, category: "фурнітура", image: "..//img/img-auto/furnitura/2.png" },
+  { name: "Піддон", price: 50, category: "фурнітура", image: "..//img/img-auto/furnitura/5.png" },
+  { name: "Плита", price: 50, category: "фурнітура", image: "..//img/img-auto/furnitura/7.png" },
+  { name: "Бочка", price: 50, category: "фурнітура", image: "..//img/img-auto/furnitura/3.png" },
+  { name: "Стійка Для Костюма", price: 40, category: "фурнітура", image: "..//img/img-auto/furnitura/4.png" },
+  { name: "Набір дерев’яних ящиків, 10 шт.", price: 70, category: "фурнітура", image: "..//img/img-auto/furnitura/6.png" },
+  { name: "Стійка Для Ящиків", price: 50, category: "фурнітура", image: "..//img/img-auto/furnitura/8.png" },
+  { name: "Стійка для зброї", price: 50, category: "фурнітура", image: "..//img/img-auto/furnitura/9.png" },
 
   /* Стройка */
   { name: "Shovel", price: 50, category: "будівництво", image: "..//img/img-auto/stroika/axe.png" },
   { name: "Shovel", price: 50, category: "будівництво", image: "..//img/img-auto/stroika/barbedwire.png" },
-  { name: "Shovel", price: 50, category: "будівництво", image: "..//img/img-auto/stroika/bk1.png" },
-  { name: "Shovel", price: 50, category: "будівництво", image: "..//img/img-auto/stroika/bk2.png" },
-  { name: "Shovel", price: 50, category: "будівництво", image: "..//img/img-auto/stroika/black-box.png" },
   { name: "Shovel", price: 50, category: "будівництво", image: "..//img/img-auto/stroika/codelock.png" },
   { name: "Shovel", price: 50, category: "будівництво", image: "..//img/img-auto/stroika/epoxy_putty.png" },
   { name: "Shovel", price: 50, category: "будівництво", image: "..//img/img-auto/stroika/flagkit.png" },
   { name: "Shovel", price: 50, category: "будівництво", image: "..//img/img-auto/stroika/hammer.png" },
+  { name: "Shovel", price: 50, category: "будівництво", image: "..//img/img-auto/stroika/black-box.png" },
   { name: "Shovel", price: 50, category: "будівництво", image: "..//img/img-auto/stroika/hatchet.png" },
   { name: "Shovel", price: 50, category: "будівництво", image: "..//img/img-auto/stroika/metalplate.png" },
   { name: "Shovel", price: 50, category: "будівництво", image: "..//img/img-auto/stroika/metalwire.png" },
@@ -47,16 +45,16 @@ const products = [
 
   /* Сети одягу */
 
-  { name: "Shovel", price: 50, category: "Сети одягу", image: "..//img/img-auto/set-cloth/1.png" },
-  { name: "Shovel", price: 50, category: "Сети одягу", image: "..//img/img-auto/set-cloth/2.png" },
-  { name: "Shovel", price: 50, category: "Сети одягу", image: "..//img/img-auto/set-cloth/3.png" },
-  { name: "Shovel", price: 50, category: "Сети одягу", image: "..//img/img-auto/set-cloth/4.png" },
-  { name: "Shovel", price: 50, category: "Сети одягу", image: "..//img/img-auto/set-cloth/5.png" },
-  { name: "Shovel", price: 50, category: "Сети одягу", image: "..//img/img-auto/set-cloth/6.png" },
-  { name: "Shovel", price: 50, category: "Сети одягу", image: "..//img/img-auto/set-cloth/7.png" },
-  { name: "Shovel", price: 50, category: "Сети одягу", image: "..//img/img-auto/set-cloth/8.png" },
-  { name: "Shovel", price: 50, category: "Сети одягу", image: "..//img/img-auto/set-cloth/9.png" },
-  { name: "Shovel", price: 50, category: "Сети одягу", image: "..//img/img-auto/set-cloth/10.png" },
+  { name: "Лісовий патруль", price: 200, category: "Сети одягу", image: "..//img/img-auto/set-cloth/1.png" },
+  { name: "Тактик", price: 200, category: "Сети одягу", image: "..//img/img-auto/set-cloth/2.png" },
+  { name: "Черногорский авторитет", price: 150, category: "Сети одягу", image: "..//img/img-auto/set-cloth/3.png" },
+  { name: "Сталкер", price: 250, category: "Сети одягу", image: "..//img/img-auto/set-cloth/4.png" },
+  { name: "Пустельний боєць", price: 300, category: "Сети одягу", image: "..//img/img-auto/set-cloth/5.png" },
+  { name: "Кібер-рейнджер", price: 200, category: "Сети одягу", image: "..//img/img-auto/set-cloth/6.png" },
+  { name: "Привид", price: 150, category: "Сети одягу", image: "..//img/img-auto/set-cloth/7.png" },
+  { name: "Повстанський дух", price: 200, category: "Сети одягу", image: "..//img/img-auto/set-cloth/8.png" },
+  { name: "Клоун-месник", price: 200, category: "Сети одягу", image: "..//img/img-auto/set-cloth/9.png" },
+  { name: "Нічний рейдер", price: 200, category: "Сети одягу", image: "..//img/img-auto/set-cloth/10.png" },
 
 ];
 
