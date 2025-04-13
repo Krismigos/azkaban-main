@@ -2,15 +2,15 @@
 const products = [
   /* Auto */
   { name: "BMW", price: 265, category: "автомобілі", image: "..//img/img-auto/auto/bmw.png" },
-  { name: "Sarka", price: 350, category: "автомобілі", image: "..//img/img-auto/auto/sarka.png" },
-  { name: "Zil", price: 265, category: "автомобілі", image: "..//img/img-auto/auto/zil.png" },
-  { name: "Gunter", price: 350, category: "автомобілі", image: "..//img/img-auto/auto/gunter.png" },
-  { name: "Dingo", price: 1300, category: "автомобілі", image: "..//img/img-auto/auto/dingo.png" },
-  { name: "Hammer", price: 1300, category: "автомобілі", image: "..//img/img-auto/auto/hammer.png" },
-  { name: "Dingo", price: 1300, category: "автомобілі", image: "..//img/img-auto/auto/dingo.png" },
-  { name: "Dingo", price: 1300, category: "автомобілі", image: "..//img/img-auto/auto/dingo.png" },
-  { name: "Dingo", price: 1300, category: "автомобілі", image: "..//img/img-auto/auto/dingo.png" },
-  { name: "Dingo", price: 1300, category: "автомобілі", image: "..//img/img-auto/auto/dingo.png" },
+  { name: "Сарка", price: 350, category: "автомобілі", image: "..//img/img-auto/auto/sarka.png" },
+  { name: "Зил", price: 265, category: "автомобілі", image: "..//img/img-auto/auto/zil.png" },
+  { name: "Гюнтер", price: 350, category: "автомобілі", image: "..//img/img-auto/auto/gunter.png" },
+  { name: "Динго", price: 1300, category: "автомобілі", image: "..//img/img-auto/auto/dingo.png" },
+  { name: "Хаммер", price: 1300, category: "автомобілі", image: "..//img/img-auto/auto/hammer.png" },
+  { name: "Dingo", price: 1300, category: "автомобілі", image: "..//img/img-auto/auto/niva.png" },
+  { name: "Волга", price: 1300, category: "автомобілі", image: "..//img/img-auto/auto/olga.png" },
+  { name: "Ветреез", price: 1300, category: "автомобілі", image: "..//img/img-auto/auto/vetreez.png" },
+  { name: "Запорожець", price: 1300, category: "автомобілі", image: "..//img/img-auto/auto/zapor.png" },
 
 
   /* Furnitura */
