@@ -14,12 +14,50 @@ const products = [
 
 
   /* Furnitura */
+  { name: "Shovel", price: 50, category: "фурнітура", image: "..//img/img-auto/furnitura/1.png" },
+  { name: "Shovel", price: 50, category: "фурнітура", image: "..//img/img-auto/furnitura/2.png" },
+  { name: "Shovel", price: 50, category: "фурнітура", image: "..//img/img-auto/furnitura/3.png" },
+  { name: "Shovel", price: 50, category: "фурнітура", image: "..//img/img-auto/furnitura/4.png" },
+  { name: "Shovel", price: 50, category: "фурнітура", image: "..//img/img-auto/furnitura/5.png" },
+  { name: "Shovel", price: 50, category: "фурнітура", image: "..//img/img-auto/furnitura/6.png" },
+  { name: "Shovel", price: 50, category: "фурнітура", image: "..//img/img-auto/furnitura/7.png" },
+  { name: "Shovel", price: 50, category: "фурнітура", image: "..//img/img-auto/furnitura/8.png" },
+  { name: "Shovel", price: 50, category: "фурнітура", image: "..//img/img-auto/furnitura/9.png" },
 
-  { name: "Dingo", price: 1300, category: "фурнітура", image: "../img/img-auto/dingo.png" },
   /* Стройка */
-  { name: "Shovel", price: 50, category: "будівництво", image: "..//img/img-auto/furnitura/zil.png" },
-  { name: "Board", price: 40, category: "будівництво" },
+  { name: "Shovel", price: 50, category: "будівництво", image: "..//img/img-auto/stroika/axe.png" },
+  { name: "Shovel", price: 50, category: "будівництво", image: "..//img/img-auto/stroika/barbedwire.png" },
+  { name: "Shovel", price: 50, category: "будівництво", image: "..//img/img-auto/stroika/bk1.png" },
+  { name: "Shovel", price: 50, category: "будівництво", image: "..//img/img-auto/stroika/bk2.png" },
+  { name: "Shovel", price: 50, category: "будівництво", image: "..//img/img-auto/stroika/black-box.png" },
+  { name: "Shovel", price: 50, category: "будівництво", image: "..//img/img-auto/stroika/codelock.png" },
+  { name: "Shovel", price: 50, category: "будівництво", image: "..//img/img-auto/stroika/epoxy_putty.png" },
+  { name: "Shovel", price: 50, category: "будівництво", image: "..//img/img-auto/stroika/flagkit.png" },
+  { name: "Shovel", price: 50, category: "будівництво", image: "..//img/img-auto/stroika/hammer.png" },
+  { name: "Shovel", price: 50, category: "будівництво", image: "..//img/img-auto/stroika/hatchet.png" },
+  { name: "Shovel", price: 50, category: "будівництво", image: "..//img/img-auto/stroika/metalplate.png" },
+  { name: "Shovel", price: 50, category: "будівництво", image: "..//img/img-auto/stroika/metalwire.png" },
+  { name: "Shovel", price: 50, category: "будівництво", image: "..//img/img-auto/stroika/nails.png" },
+  { name: "Shovel", price: 50, category: "будівництво", image: "..//img/img-auto/stroika/planks.png" },
+  { name: "Shovel", price: 50, category: "будівництво", image: "..//img/img-auto/stroika/pliers.png" },
+  { name: "Shovel", price: 50, category: "будівництво", image: "..//img/img-auto/stroika/saw.png" },
+  { name: "Shovel", price: 50, category: "будівництво", image: "..//img/img-auto/stroika/shovel.png" },
+  { name: "Shovel", price: 50, category: "будівництво", image: "..//img/img-auto/stroika/sledgehammer.png" },
+  { name: "Shovel", price: 50, category: "будівництво", image: "..//img/img-auto/stroika/woodlogs.png" },
+
   /* Сети одягу */
+
+  { name: "Shovel", price: 50, category: "Сети одягу", image: "..//img/img-auto/set-cloth/1.png" },
+  { name: "Shovel", price: 50, category: "Сети одягу", image: "..//img/img-auto/set-cloth/2.png" },
+  { name: "Shovel", price: 50, category: "Сети одягу", image: "..//img/img-auto/set-cloth/3.png" },
+  { name: "Shovel", price: 50, category: "Сети одягу", image: "..//img/img-auto/set-cloth/4.png" },
+  { name: "Shovel", price: 50, category: "Сети одягу", image: "..//img/img-auto/set-cloth/5.png" },
+  { name: "Shovel", price: 50, category: "Сети одягу", image: "..//img/img-auto/set-cloth/6.png" },
+  { name: "Shovel", price: 50, category: "Сети одягу", image: "..//img/img-auto/set-cloth/7.png" },
+  { name: "Shovel", price: 50, category: "Сети одягу", image: "..//img/img-auto/set-cloth/8.png" },
+  { name: "Shovel", price: 50, category: "Сети одягу", image: "..//img/img-auto/set-cloth/9.png" },
+  { name: "Shovel", price: 50, category: "Сети одягу", image: "..//img/img-auto/set-cloth/10.png" },
+
 ];
 
 let cart = JSON.parse(localStorage.getItem('cart')) || [];
