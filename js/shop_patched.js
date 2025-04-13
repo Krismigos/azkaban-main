@@ -1,16 +1,16 @@
 
 const products = [
   /* Auto */
-  { name: "BMW", price: 265, category: "автомобілі", image: "..//img/img-auto/auto/bmw.png" },
-  { name: "Сарка", price: 350, category: "автомобілі", image: "..//img/img-auto/auto/sarka.png" },
-  { name: "Зил", price: 265, category: "автомобілі", image: "..//img/img-auto/auto/zil.png" },
-  { name: "Гюнтер", price: 350, category: "автомобілі", image: "..//img/img-auto/auto/gunter.png" },
-  { name: "Динго", price: 1300, category: "автомобілі", image: "..//img/img-auto/auto/dingo.png" },
-  { name: "Хаммер", price: 1300, category: "автомобілі", image: "..//img/img-auto/auto/hammer.png" },
-  { name: "Dingo", price: 1300, category: "автомобілі", image: "..//img/img-auto/auto/niva.png" },
-  { name: "Волга", price: 1300, category: "автомобілі", image: "..//img/img-auto/auto/olga.png" },
-  { name: "Ветреез", price: 1300, category: "автомобілі", image: "..//img/img-auto/auto/vetreez.png" },
-  { name: "Запорожець", price: 1300, category: "автомобілі", image: "..//img/img-auto/auto/zapor.png" },
+  { name: "BMW", price: 250, category: "автомобілі", image: "..//img/img-auto/auto/bmw.png" },
+  { name: "Sarka", price: 135, category: "автомобілі", image: "..//img/img-auto/auto/sarka.png" },
+  { name: "ЗІЛ", price: 200, category: "автомобілі", image: "..//img/img-auto/auto/zil.png" },
+  { name: "Gunter", price: 350, category: "автомобілі", image: "..//img/img-auto/auto/gunter.png" },
+  { name: "Dingo ATF", price: 500, category: "автомобілі", image: "..//img/img-auto/auto/dingo.png" },
+  { name: "HMMWV", price: 200 , category: "автомобілі", image: "..//img/img-auto/auto/hammer.png" },
+  { name: "Ada 4x4", price: 135, category: "автомобілі", image: "..//img/img-auto/auto/niva.png" },
+  { name: "ГАЗ-24 Волга", price: 135, category: "автомобілі", image: "..//img/img-auto/auto/olga.png" },
+  { name: "M3S", price: 150, category: "автомобілі", image: "..//img/img-auto/auto/vetreez.png" },
+  { name: "Запорожець", price: 200, category: "автомобілі", image: "..//img/img-auto/auto/zapor.png" },
 
 
   /* Furnitura */
@@ -25,23 +25,23 @@ const products = [
   { name: "Стійка для зброї", price: 50, category: "фурнітура", image: "..//img/img-auto/furnitura/9.png" },
 
   /* Стройка */
-  { name: "Shovel", price: 50, category: "будівництво", image: "..//img/img-auto/stroika/axe.png" },
-  { name: "Shovel", price: 50, category: "будівництво", image: "..//img/img-auto/stroika/barbedwire.png" },
-  { name: "Shovel", price: 50, category: "будівництво", image: "..//img/img-auto/stroika/codelock.png" },
-  { name: "Shovel", price: 50, category: "будівництво", image: "..//img/img-auto/stroika/epoxy_putty.png" },
-  { name: "Shovel", price: 50, category: "будівництво", image: "..//img/img-auto/stroika/flagkit.png" },
-  { name: "Shovel", price: 50, category: "будівництво", image: "..//img/img-auto/stroika/hammer.png" },
-  { name: "Shovel", price: 50, category: "будівництво", image: "..//img/img-auto/stroika/black-box.png" },
-  { name: "Shovel", price: 50, category: "будівництво", image: "..//img/img-auto/stroika/hatchet.png" },
-  { name: "Shovel", price: 50, category: "будівництво", image: "..//img/img-auto/stroika/metalplate.png" },
-  { name: "Shovel", price: 50, category: "будівництво", image: "..//img/img-auto/stroika/metalwire.png" },
-  { name: "Shovel", price: 50, category: "будівництво", image: "..//img/img-auto/stroika/nails.png" },
-  { name: "Shovel", price: 50, category: "будівництво", image: "..//img/img-auto/stroika/planks.png" },
-  { name: "Shovel", price: 50, category: "будівництво", image: "..//img/img-auto/stroika/pliers.png" },
-  { name: "Shovel", price: 50, category: "будівництво", image: "..//img/img-auto/stroika/saw.png" },
-  { name: "Shovel", price: 50, category: "будівництво", image: "..//img/img-auto/stroika/shovel.png" },
-  { name: "Shovel", price: 50, category: "будівництво", image: "..//img/img-auto/stroika/sledgehammer.png" },
-  { name: "Shovel", price: 50, category: "будівництво", image: "..//img/img-auto/stroika/woodlogs.png" },
+  { name: "Колун", price: 50, category: "будівництво", image: "..//img/img-auto/stroika/axe.png" },
+  { name: "Колючий дрiт", price: 20, category: "будівництво", image: "..//img/img-auto/stroika/barbedwire.png" },
+  { name: "Codelock", price: 50, category: "будівництво", image: "..//img/img-auto/stroika/codelock.png" },
+  { name: "Викрутка", price: 50, category: "будівництво", image: "..//img/img-auto/stroika/epoxy_putty.png" },
+  { name: "Набiр для флагштока", price: 100, category: "будівництво", image: "..//img/img-auto/stroika/flagkit.png" },
+  { name: "Молоток", price: 20, category: "будівництво", image: "..//img/img-auto/stroika/hammer.png" },
+  { name: "Чорний ящик", price: 100, category: "будівництво", image: "..//img/img-auto/stroika/black-box.png" },
+  { name: "Сокира", price: 35, category: "будівництво", image: "..//img/img-auto/stroika/hatchet.png" },
+  { name: "Листи металу <br>10 шт.", price: 75, category: "будівництво", image: "..//img/img-auto/stroika/metalplate.png" },
+  { name: "Дрiт", price: 20, category: "будівництво", image: "..//img/img-auto/stroika/metalwire.png" },
+  { name: "Цвяхи", price: 50, category: "будівництво", image: "..//img/img-auto/stroika/nails.png" },
+  { name: "Дошка 10 шт.", price: 30, category: "будівництво", image: "..//img/img-auto/stroika/planks.png" },
+  { name: "Плоскогубцi", price: 40, category: "будівництво", image: "..//img/img-auto/stroika/pliers.png" },
+  { name: "Пила", price: 35, category: "будівництво", image: "..//img/img-auto/stroika/saw.png" },
+  { name: "Лопата", price: 25, category: "будівництво", image: "..//img/img-auto/stroika/shovel.png" },
+  { name: "Кувалда", price: 40, category: "будівництво", image: "..//img/img-auto/stroika/sledgehammer.png" },
+  { name: "Колода 10 шт. ", price: 30, category: "будівництво", image: "..//img/img-auto/stroika/woodlogs.png" },
 
   /* Сети одягу */
 
